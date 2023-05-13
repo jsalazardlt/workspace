@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(235, 8, 8);
+    background-color: black;
     color:rgb(230, 244, 43)
 }
 
-h1, h2, p {
-    background-color:rgb(223, 41, 41)
-    text-align:start;
-    border: radius 4px;
-}
 
+h1 {
+    color: #faf5f5;
+    background-color: #db5050;
+    text-align: center;
+    border-radius: 2cm;padding: 1cm;
+
+
+}

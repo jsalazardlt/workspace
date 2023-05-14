@@ -1,14 +1,16 @@
 body {
     background-color: black;
-    color:rgb(230, 244, 43)
+    color:rgb(251, 251, 251)
 }
 
 
 h1 {
     color: #faf5f5;
-    background-color: #db5050;
     text-align: center;
     border-radius: 1cm;padding: 1cm;
+    font-family:'Trebuchet MS';
+    font-size: 3cm;
+    text-shadow: brown;
 
 }
 
@@ -16,7 +18,19 @@ h2 {
     text-decoration: overline;
     text-align: center;
     text-decoration-style:double;
-    
+    text-decoration-color: #ffd000;
+    font-size: 2cm;
 
 }
+
+img {
+    border-radius: 350%;
+    padding: auto;
+    width: 250px;
+    height: 280px;
+    
+  
+
+  }
+
 

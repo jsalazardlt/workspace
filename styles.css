@@ -10,6 +10,8 @@ img {
     margin-inline-end: auto;
     margin-top: 1cm;
     margin-bottom: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
 }
 
 h1 {
@@ -36,4 +38,18 @@ h3 {
     font-style: italic;
     font-weight: bold;
 }
+
+  .city {
+    background-color: #131313;
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    float: left;
+  }
+  
+  
+
+
+ 
 

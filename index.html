@@ -7,64 +7,92 @@
 </head>
 
 <body>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: #f40303;
+          padding: 5px;
+          text-align: center;
+          font-size: 60px;
+          color: white;
+          text-decoration: overline;
+          text-decoration:solid;
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          background: #f20606;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #ecf801;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Supreme</h2>
+        <p>Supreme is a popular clothing brand that originated in New York City in 1994. It was founded by James Jebbia and started as a small skateboarding store in downtown Manhattan. Over the years, Supreme has grown into a global streetwear phenomenon, known for its distinctive red logo and collaborations with various artists, designers, and brands.</p>
+       
+        
+        <header>
+          <h2>Where are we at?</h2>
+        </header>
+        
+        <section>
+          <nav>
+            <ul>
+              <li><a href="#">Guadalajara</a></li>
+              <li><a href="#">Monterrey</a></li>
+              <li><a href="#">Cd. de Mexico</a></li>
+            </ul>
+          </nav>
+          
+          <article>
+            <h1>Chiskodelia</h1>
+            <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+          </article>
+        </section>
 
-      
-
-<style>
-
-
-</style>
-
-
-
-    
-    <h1> Who <span style="color:#fcfcfa">is?</span> </h1>
-  
-    <h1 style="color: #f5f504;">Brian m. Viveros</h1>
-    <h1>Art Work</h1>
-
-    <h3>Brian M. Viveros meticulously renders portraits of women that resist the notions of feminine sensitivity, placing his 
-    finely detailed, conventionally attractive figures in provocative positions and costumes that convey power, boldness, and 
-    unapologetic femininity.</h3>
-
-    <hr>
-
-<div class="art">
-<img src="img/bv1.jpeg">
-<img src="img/bv2.jpeg">
-<img src="img/bv3.jpeg">
-<img src="img/bv4.jpeg">
-<img src="img/bv5.jpeg">
-<img src="img/bv6.jpeg">
-<img src="img/bv7.jpeg">
-<img src="img/bv8.jpeg">
-<img src="img/bv9.jpeg">
-<img src="img/bv10.jpeg">
-<img src="img/bv11.jpeg">
-<img src="img/bv12.jpeg">
-<img src="img/bv13.jpeg">
-<img src="img/bv14.jpeg">
-<img src="img/bv15.jpeg">
-</div>
-    
-<hr>
-
-<div class="city">
-<h2>Guadalajara</h2>
-<img src="img/Guadalajara.jpeg">
-</div> 
-
-<div class="city">
-<h2>Cd. de Mexico</h2>
-<img src="img/Mexico.jpeg">
-</div>
-
-<div class="city">
-<h2>Monterrey</h2>
-<img src="img/Monterrey.png">
-</div>
-
-
+        <br>
+        
    
     <!--Comments-->
   

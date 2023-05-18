@@ -1,60 +1,21 @@
 body {
-    background-color: brown;
-    color: #fff;
+    background-color: rgb(1, 1, 1);
     font-family: Helvetica;
     font-size: 20px;
 }
 
-img {
-    border-radius: 140px;
-    width: 250px;
-    height: 300px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
-    margin-left: 2cm;
-    margin-right: 2cm;
-}
-
 h1 {
-    text-decoration:solid;
-    text-decoration: underline;
-    border-radius: 100px;
-    color: rgb(177, 54, 1);
-    background-color: black;
-    font-size: 100px;
-    text-align: center;
+    background-color: rgb(248, 5, 5);
+    color: rgb(248, 245, 245); 
 }
 
-h3 {
-    font-size: 35px;
-    text-align: center;
-    color: rgb(15, 15, 16);
-    text-transform: uppercase;
-    border-radius: 30px;
-    background-color: rgb(235, 251, 7);
+p {
+    color:aliceblue;
 }
 
-  .city {
-    background-color: #131313;
-    padding: 30px;
-    text-align: left;
-    font-size: 35px;
-    color: white;
-    float: left;
-    width: 30%;
-    height: 300px;
-    margin-top: 3cm;
-    margin-left: 2cm;
-    margin-right: 2cm;
-    margin-bottom: 3cm;
-    border-radius: 5px;
-    text-decoration: underline;
-    text-decoration-color: #ff0000;
-    text-decoration-style:double;
-    text-decoration-thickness: 5px;
-  }
+
+
+
 
  
   

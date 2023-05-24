@@ -22,16 +22,22 @@ h2  {
     width: 50%;
 }
 
-h3 {
-    background-color: #f80505;  
-    color: #f8f5f5;
+h4 {
+    background-color: #f80505;
+    color: #f8f5f5; 
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: solid;
+    width: 50%;
+    float: right;
+
 }
 
 p {
     color:#f9f5f5;
     background-color: #f80505;
     font-size: 110%;
-    border-radius: 50px;
+    border-style: solid;
 }
     
 img {

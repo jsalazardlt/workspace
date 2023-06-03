@@ -1,19 +1,18 @@
 body {
-      background-color: black;
+      background-color: #ff0000;
       color: hsl(0, 11%, 96%);
      
 }
 
 .logo {
-    background-color: #dc143c;
-    text-align: right;
+    background-color: #ff0000;
     font-family: futura bold obliquea;
     font-size: 100px;
     padding: auto;
     border-style: groove;
     border-color: #ffffff;
-    border-width: 5px;
-    border-radius: 10px;
+    border-width: 10px;
+    border-radius: 15px;
     color: rgb(255, 255, 255);
     margin: left;
     width: 365px;
@@ -24,22 +23,7 @@ body {
     margin-top: 200px;
 }
 
- p {
-    text-align: center;
-    direction: ltr;
-    font-size: 25px;
-    background-color: #dc143c;
-    font-family: futura bold obliquea;
-    font-size: 25px;
-    padding: 5px;
-    border-style: groove;
-    border-color: #ffffff;
-    border-width: 5px;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    width: auto;
-    text-align: center;
- }
+
 
 ul {
    text-align: left;
@@ -50,18 +34,14 @@ ul {
 
 }
 
-h3, h4 {
+h1, h2, h3, h4, p {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 50px;
+   scroll-margin-right: 50px;
    text-align: right;
-   font-size: 50px;
+   font-size: 40px;
    background-color: #c304a3;
 
 }
 
-
-article {
-   float: left;
-   padding: 20px;
-   width: 70%;
-   background-color: #ea05a9;
-   height: 300px;
- }
